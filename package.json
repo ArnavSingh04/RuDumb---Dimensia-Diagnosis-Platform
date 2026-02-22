@@ -1,0 +1,21 @@
+{
+  "name": "dimensia-diagnosis-platform",
+  "private": true,
+  "scripts": {
+    "start": "meteor run",
+    "test": "meteor test --driver-package meteortesting:mocha"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.28.0",
+    "meteor-node-stubs": "^1.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.28.0"
+  },
+  "meteor": {
+    "mainModule": {
+      "client": "client/main.jsx",
+      "server": "server/main.js"
+    }
+  }
+}
